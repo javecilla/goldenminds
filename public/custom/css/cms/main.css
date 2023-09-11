@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('news.css');
+/**
+ * © JEROME AVECILLA
+ */
+
+/*customizing default scroll bar*/
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-track {  
+  box-shadow: inset 0 0 2px grey; 
+  border-radius: 1px; 
+}
+ 
+::-webkit-scrollbar-thumb {  
+  background: #cecece!important; 
+  border-radius: 1px;
+  cursor: -webkit-grab; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cecece!important; 
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   /*font-family: sans-serif;*/
+}
+html {
+   box-sizing: border-box;
+   user-select: none;
+}

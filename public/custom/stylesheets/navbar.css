@@ -1,0 +1,155 @@
+/*====================NAVBAR====================*/
+input[id="navcheckbox"] {
+        -webkit-appearance: none;
+        visibility: hidden!important;
+        display: none!important;
+        background: transparent;
+}
+.bar {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: right;
+  opacity: .8;
+}
+.bar .mid {
+  height: 3px;
+  width: 28px;
+  background: #000;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.2s ease;
+}
+.bar .top {
+  bottom: 3px;
+  height: 3px;
+  width: 28px;
+  background: #000;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.2s ease;
+}
+.bar .bot {
+  top: 7px;
+  height: 3px;
+  width: 28px;
+  background: #000;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.2s ease;
+}
+input[id="navcheckbox"]:checked ~ .bar .top {
+  transform: rotate(-45deg);
+  width: 27px;
+  transform-origin: right;
+  top: -10px;
+}
+input[id="navcheckbox"]:checked ~ .bar .bot {
+  transform: rotate(45deg);
+  width: 27px;
+  transform-origin: right;
+  top: 10px;
+}
+input[id="navcheckbox"]:checked ~ .bar .mid {
+  transform: translateX(1px);
+  opacity: 0;
+}
+
+    a.nav-link {
+      font-weight: bolder!important;
+      font-size: 17px!important;
+    }
+          li a.dropdown-item:focus{
+        background: #996515;
+        opacity: .7;
+      }
+
+      a.link_ud:focus {
+        background: #996515!important;
+        opacity: .7!important;
+      }
+      .navbar {
+  border-bottom: 1px solid lightgrey;
+}
+.navbar-brand {
+  cursor: pointer;
+}
+.nav_logo {
+  width: 80px;
+  height: 90px;
+}
+.school_name {
+  color: #000;
+  font-family: 'Crimson Text', serif;
+  font-weight: 400!important;
+  font-size: 25px!important;
+  letter-spacing: 1px;
+  cursor: pointer; 
+}
+
+.school_name:hover {
+  color: #996515!important;
+}
+
+.nav-link {
+  font-weight: 400!important;
+}
+.nav-link:hover {
+  display: inline-block;
+  border-bottom: 2px solid #996515;
+  color: #996515!important;
+  transition: 0.2s ease;
+}
+.nav_btn {
+  background: #996515;
+  opacity: .8;
+  color: #fff;
+  margin-left: 3px;
+  margin-top: 5px!important;
+}
+.nav_btn:hover {
+  background: transparent;
+  border: 2px solid #996515;
+  font-weight: 600;
+  color: #996515;
+}
+.nav-link {
+  color: #000000;
+}
+.active_nav-link {
+  color: #996515!important;
+  display: inline-block;
+  border-bottom: 2px solid #996515;
+}
+.nav_btn_search {
+  background: #996515!important;
+  color: #ffffff;
+  border: none;
+  opacity: .7;
+}
+.nav_btn_search:hover {
+  opacity: 1;
+}
+.nav_input_search {
+  background: transparent;
+}
+.nav_input_search:focus {
+  border: 1px solid #996515;
+  opacity: .8;
+  box-shadow: none;
+}
+.nav-link:focus {
+  color:#996515;
+}
+.fa-angle-down {
+  font-size: 13px!important;
+}
+.jumbotron {
+  /*  background:#b4813f!important;*/
+  background-image: linear-gradient(to right, #5a3b2f, #5a3b2f, #5a3b2f, #b4813f); 
+  color: #f3f3f3!important;
+  padding: 5px;
+}
+.ml-10 {
+  margin-left: 10px!important;
+}

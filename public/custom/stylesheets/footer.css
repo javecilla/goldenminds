@@ -1,0 +1,29 @@
+footer {
+  background-image: linear-gradient(to top, #cccccc, #ffffff); 
+  border-top: 1px solid #DDDDDD;
+}
+
+.flink {
+      color: #5a3b2f; 
+      font-size: 14px;
+      text-decoration: none
+    } .flink:hover {
+      color: #5a3b2f; 
+      opacity: .8;
+    }
+    .wgmc {
+      color: #5a3b2f; 
+      font-size: 16px;
+    }
+
+    .lflink {
+      color: #5a3b2f; 
+      text-decoration: none;
+    }
+    .lflink:hover {
+      color: #5a3b2f; 
+      opacity: .9;
+    }
+    .link_label {
+      color: #5a3b2f;
+    }

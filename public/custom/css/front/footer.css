@@ -1,0 +1,17 @@
+/*footer {
+	border-top: 3px solid #996515; 
+	opacity: .8;
+}*/
+.footer_titleborder_left {
+	border-left: 3px solid gray;
+}
+.h4footer {
+	color: #000000;
+}
+.copyright {
+	background-color: rgba(0, 0, 0, .1);
+}
+a.gmc {
+	text-decoration: none;
+	color: #000;
+}

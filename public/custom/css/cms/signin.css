@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/**
+ * © JEROME AVECILLA
+ */
+
+/*customizing default scroll bar*/
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-track {  
+  box-shadow: inset 0 0 2px grey; 
+  border-radius: 1px; 
+}
+ 
+::-webkit-scrollbar-thumb {  
+  background: #cecece!important; 
+  border-radius: 1px;
+  cursor: -webkit-grab; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cecece!important; 
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   /*font-family: sans-serif;*/
+}
+html {
+   box-sizing: border-box;
+   user-select: none;
+}
+
+body {
+   background-image: url('../../../resources/images/general/bg-school.PNG');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow-x: hidden;
+}
+
+.login-form {
+   background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0 !important;
+   width: 370px!important;
+   margin: 0 auto;
+   margin-bottom: 0px;
+   padding: 30px;
+   padding-top: 20px;
+   padding-bottom: 15px;
+   border-radius: 2px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   -ms-border-radius: 2px;
+   -o-border-radius: 2px;
+}
+.form-title {
+   color: #fff;
+   font-size: 22px;
+   padding-top: 10px;
+}
+/*styling input icons*/
+.icon {
+   padding: 15px;
+   background: dodgerblue;
+   opacity: .9;
+   color: white;
+   min-width: 50px;
+   text-align: center;
+   font-size: 15px;
+}
+.eye-icon {
+   padding: 14.5px!important;
+   background: transparent;
+   border: 1px solid #f3f3f3;
+   color: #fff;
+   margin-top: 1px;
+   min-width: 50px;
+   text-align: center;
+}
+ /*styling input fields*/
+.username-input-field {
+   width: 83.5%!important;
+   padding: 10px;
+   outline: none;
+   background: transparent;
+   border: 1px solid #f3f3f3;
+   color: #f3f3f3;
+   font-size: 15px;
+   overflow: hidden;
+}
+.password-input-field {
+   width: 68%!important;
+   padding: 10px;
+   outline: none;
+   background: transparent;
+   border: 1px solid #f3f3f3;
+   color: #fff;
+   font-size: 15px;
+   overflow: hidden;
+}
+::placeholder {
+   color: #f3f3f3;
+}
+/*styling button*/
+.login-btn {
+   background: dodgerblue; 
+   opacity: .9;
+   padding: 10px;
+   border: none;
+   color: #fff;
+   font-size: 15px!important;
+   font-weight: 400;
+   width: 100%;
+   margin-top: 8px;
+} 
+.login-btn:hover {
+   opacity: 1;
+   color: #fff;
+}
+.attempt-message {
+   font-size: 14px;
+}
+.notes {
+   color: #fff;
+   font-size: 14px;
+   text-align: justify;
+}
+/*horizontal line*/
+div.hr {
+   height: 1px; 
+   background: #e7e7e7;
+}
+.mt {
+   margin-top: 10%;
+}

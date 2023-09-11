@@ -1,0 +1,93 @@
+
+              .highlight_announcement_card {
+      max-width: auto;
+      margin-bottom: 20px;
+    }
+    .highlight_announcement_img {
+      width: 700px; 
+      height: 380px;
+    }
+    .highlight_announcement_date {
+      color: #996515;
+    }
+    .highlight_announcement_title {
+      font-size: 18px;
+      color: #996515;
+    }
+    .highlight_announcement_desc {
+      line-height: 1.5; 
+      text-justify: center;
+      margin-top: 10px;
+    }
+    
+    .pin_announcement_card {
+        border-radius: 0;
+        background: transparent;
+        border-left: 5px solid #DDDDDD;
+        height: 108px!important; 
+      }
+            .pin_announcement_card:hover {
+        border-left: 5px solid #996515;
+        transition: 0.3s ease;
+        opacity: .8;
+      }
+      .pin_announcement_date {
+        background-color: transparent; 
+        font-size: 17px; 
+        font-weight: 500; 
+        color: #996515;
+        border-radius: 0;
+      }
+
+    .pin_announcement_title {
+        font-size: 16px;
+        font-weight: 400px!important;
+        line-height: 20px;
+        font-weight: 550;
+        margin-top: 5px;
+        color: #6c757d!important;
+        overflow: hidden!important; 
+        display: -webkit-box!important;
+        -webkit-line-clamp: 2!important; 
+        -webkit-box-orient: vertical!important;
+      }
+      .more_announcements_card {
+        border-bottom: 5px solid #DDDDDD;
+      } .more_announcements_card:hover {
+        border-bottom: 5px solid #996515;
+        transition: 0.3s ease;
+        opacity: .8;
+      }
+      .more_announcements_card .accordion-header {
+        cursor: pointer;
+      }
+      .more_announcements_img {
+        object-fit: fill; 
+        max-height:240px
+      }
+      .more_announcements_card .card-body {
+        border-top: 2px solid #996515;
+      }
+      .more_announcement_date {
+        color: #996515; 
+        font-size: 17px; 
+        font-weight: 500; 
+        margin-bottom: 10px;
+      }
+      .more_announcement_title {
+        font-size: 16px;
+        color: #996515;
+        overflow: hidden; 
+        display: -webkit-box;
+        -webkit-line-clamp: 2; 
+        -webkit-box-orient: vertical;
+      }
+      .more_announcement_desc {
+        word-wrap: break-word; 
+        text-align: justify;
+        color: #000000;
+      }
+      .more_announcements_card .more_link {
+        text-decoration: underline;
+        color: #000000;
+      }
